@@ -1,10 +1,23 @@
-import React from 'react';
+import React, {useState, useEffect, useInterval, generateDataset} from 'react';
 import {Switch, Route} from 'react-router-dom';
-import {LineDemochart,BarDemochart,PieDemochart} from './chart';
+import {LineDemochart, BarDemochart, PieDemochart} from './chart';
 
 const styles = {
     marginTop: '10%'
 };
+const Svg = () => {
+    // 宣告一個新的 state 變數，我們稱作為「count」。
+    const [count, setCount] = useState(0);
+    const [todos, setTodos] = useState([{ text: 'Learn Hooks' }]);
+    return (
+        <div>
+            <p>You clicked {count} times</p>
+            <button onClick={() => setCount(count + 1)}>
+                Click me {todos[0].text}
+            </button>
+        </div>
+    );
+}
 
 const linechart = () => {
     return (
@@ -59,4 +72,4 @@ const Laptop = () => {
     return <h3>Laptop</h3>;
 };
 
-export {linechart, barchart,piechart, Electronics, Mobile, Desktop, Laptop};
+export {Svg, linechart, barchart, piechart, Electronics, Mobile, Desktop, Laptop};
