@@ -1,0 +1,89 @@
+<div class="ih-today">
+	<div class="ih-theme-title">
+		<h2>
+              今日精華
+              <i aria-hidden="true" class="fa fa-chevron-right"></i>
+		</h2>
+		<div data-v-2c9b3b0f="" class="ih-component-tag1 d-none d-md-block">
+			<a data-v-2c9b3b0f="" href="/news/tag/Switch"># Switch</a>
+			<a data-v-2c9b3b0f="" href="/news/tag/PS5"># PS5</a>
+			<a data-v-2c9b3b0f="" href="/news/tag/寶可夢"># 寶可夢</a>
+			<a data-v-2c9b3b0f="" href="/news/tag/PS4"># PS4</a>
+			<a data-v-2c9b3b0f="" href="/news/tag/The future of gaming"># The future of gaming</a>
+		</div>
+	</div>
+	<div class="ih-row-10 row">
+		<div class="col-12 col-lg-6">
+			<a href="/news/20201006/3280242" class="ih-item ih-theme-hover-img d-block">
+				<figure class="ih-img ih-theme-cover"><img src="https://game.nownews.com/wp-content/uploads/2020/10/01-1-300x200.jpg">
+					<figcaption>確認鍵位不給自訂！PS5只能用「X」來確定</figcaption>
+				</figure>
+				<div class="ih-theme-flag">TV主機</div>
+			</a>
+		</div>
+		<div class="col-12 col-lg-6">
+			<a href="/news/20201006/3280226" class="ih-item ih-theme-hover-img d-block">
+				<figure class="ih-img ih-theme-cover"><img src="https://game.nownews.com/wp-content/uploads/2020/10/fallout-76-300x169.jpg">
+					<figcaption>在遊戲當兵也不行？FB反暴力審查BAN掉了在《Fallout 76》扮演民兵的玩家</figcaption>
+				</figure>
+				<div class="ih-theme-flag">PC</div>
+			</a>
+		</div>
+		<div class="col-12 col-lg-6">
+			<a href="/news/20201005/3280217" class="ih-item ih-theme-hover-img d-block">
+				<figure class="ih-img ih-theme-cover">
+					<img src="https://game.nownews.com/wp-content/uploads/2020/10/EjjzZt6XsAE9Khj-300x169.jpg">
+					<figcaption>「11月19日，我們夜城見！」《電馭叛客2077》遊戲母片正式完成</figcaption>
+				</figure>
+				<div class="ih-theme-flag">PC</div>
+			</a>
+		</div>
+		<div class="col-12 col-lg-6">
+			<a href="/news/20201005/3280177" class="ih-item ih-theme-hover-img d-block">
+			<figure class="ih-img ih-theme-cover">
+				<img src="https://game.nownews.com/wp-content/uploads/2020/10/03《月光雕刻師》釋出最新資訊、官方粉專＆形象官網今日開站-300x157.jpg">
+				<figcaption>試玩＼繼承天堂靈魂的嶄新嘗試　天堂之父首支MMORPG手遊大作《月光雕刻師》</figcaption>
+				</figure>
+			<div class="ih-theme-flag">手機遊戲</div>
+			</a>
+		</div>
+	</div>
+</div>
+
+
+-webkit-tap-highlight-color: transparent;
+--blue: #007bff;
+--indigo: #6610f2;
+--purple: #6f42c1;
+--pink: #e83e8c;
+--red: #dc3545;
+--orange: #fd7e14;
+--yellow: #ffc107;
+--green: #28a745;
+--teal: #20c997;
+--cyan: #17a2b8;
+--white: #fff;
+--gray: #6c757d;
+--gray-dark: #343a40;
+--primary: #007bff;
+--secondary: #6c757d;
+--success: #28a745;
+--info: #17a2b8;
+--warning: #ffc107;
+--danger: #dc3545;
+--light: #f8f9fa;
+--dark: #343a40;
+--breakpoint-xs: 0;
+--breakpoint-sm: 576px;
+--breakpoint-md: 768px;
+--breakpoint-lg: 992px;
+--breakpoint-xl: 1200px;
+--font-family-sans-serif: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+--font-family-monospace: SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
+font-weight: 400;
+text-align: left;
+line-height: 1.5;
+font-family: Helvetica Neue,Helvetica,Arial,PingFang TC,Heiti TC,LantingHei TC,Microsoft JhengHei,Microsoft YaHei,"\5FAE\8EDF\6B63\9ED1\9AD4",sans-serif;
+font-size: 15px;
+color: #000;
+box-sizing: border-box;
