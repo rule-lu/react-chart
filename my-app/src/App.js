@@ -29,7 +29,9 @@ import {
 } from './css/main_css'
 
 const App = () => {
-	const {register, handleSubmit, errors, control, watch} = useForm()
+	const {register, handleSubmit, errors, control, watch} = useForm({
+		defaultValues: { start_time: new Date("2020-08-01"),end_time: new Date("2020-08-05") }
+	})
 	const {start_time, end_time} = watch(["start_time", "end_time"]);
 	const [totaldata, setTotalData] = useState([])
 	const [chartdata, setChartData] = useState([])
@@ -63,7 +65,7 @@ const App = () => {
 					GetLineMonthList(values)
 						.then(function (res) {
 							if (res.data.code === "200") {
-								console.log(res.data.data)
+								//console.log(res.data.data)
 								setChartData(res.data.data)
 							}
 						})
@@ -75,7 +77,7 @@ const App = () => {
 					GetLineWeekList(values)
 						.then(function (res) {
 							if (res.data.code === "200") {
-								console.log(res.data.data)
+								//console.log(res.data.data)
 								setChartData(res.data.data)
 							}
 						})
@@ -87,7 +89,7 @@ const App = () => {
 					GetLineDayList(values)
 						.then(function (res) {
 							if (res.data.code === "200") {
-								console.log(res.data.data)
+								//console.log(res.data.data)
 								setChartData(res.data.data)
 							}
 						})
@@ -99,7 +101,7 @@ const App = () => {
 					GetLineHourList(values)
 						.then(function (res) {
 							if (res.data.code === "200") {
-								console.log(res.data.data)
+								//console.log(res.data.data)
 								setChartData(res.data.data)
 							}
 						})
@@ -193,9 +195,10 @@ const App = () => {
 										as={
 											<DatePicker
 												id="start_time"
-												selected={ ! start_time ? new Date("2020-08-01") : start_time}
+												selected={ start_time}
 												maxDate={new Date()}
 												selectsStart
+												isClearable
 												startDate={start_time}
 												placeholderText="開始時間"
 												customInput={<Input/>}
@@ -211,9 +214,10 @@ const App = () => {
 										as={
 											<DatePicker
 												id="end_time"
-												selected={ ! end_time ? new Date("2020-08-05") : end_time}
+												selected={ end_time}
 												maxDate={new Date()}
 												selectsEnd
+												isClearable
 												minDate={start_time}
 												endDate={end_time}
 												placeholderText="結束時間"
